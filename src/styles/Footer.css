@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: brown;
+  width: 100%;
+  height: 200px;
+  padding-top: 10px;
+}
+
+.footer-icons svg {
+  color: white;
+  font-size: 70px;
+  margin: 20px;
+  cursor: pointer;
+}
+.footer-icons svg:hover {
+  border-bottom: 1px solid white;
+}
+
+.footer p {
+  color: white;
+}
